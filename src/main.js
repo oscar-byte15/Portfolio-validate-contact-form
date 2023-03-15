@@ -219,16 +219,6 @@ document.documentElement.addEventListener('click', (e) => {
   }
 });
 
-const emailAddress = document.getElementById('email');
-const templateForm = document.getElementById('form-id');
-const validatorMessage = document.getElementById('validator-message');
-templateForm.addEventListener('submit', (e) => {
-  if (emailAddress.value !== emailAddress.value.toLowerCase()) {
-    e.preventDefault();
-    validatorMessage.textContent = 'Kindly input email in lowercase!';
-  } else {
-    validatorMessage.textContent = '';
-  }
-});
+
 
  
