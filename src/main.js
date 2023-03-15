@@ -218,7 +218,3 @@ document.documentElement.addEventListener('click', (e) => {
     shadowBlue.classList.toggle('shadow-blue-trans');
   }
 });
-
-
-
- 

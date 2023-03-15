@@ -921,11 +921,12 @@ hr {
   z-index: 90;
 }
 
-#message-fail{
-  color:white;
+#message-fail {
+  color: white;
   margin-bottom: 3%;
   margin-top: -2%;
 }
+
 @media (min-width: 768px) {
   .popup {
     display: flex;
