@@ -642,7 +642,9 @@ hr {
   margin-bottom: 50px;
 }
 
-.div-wrap .form-paragraph { margin-bottom: 24px; }
+.div-wrap .form-paragraph {
+  margin-bottom: 24px;
+}
 
 .reach_me input {
   font-family: Poppins, sans-serif;
@@ -898,12 +900,12 @@ hr {
   transform: translateX(0);
 }
 
-#btn-menu:checked ~ .container-menu {
+#btn-menu:checked~.container-menu {
   opacity: 1;
   visibility: visible;
 }
 
-#btn-menu:checked ~ .container-menu .cont-menu {
+#btn-menu:checked~.container-menu .cont-menu {
   transform: translateX(0%);
 }
 
@@ -923,8 +925,8 @@ hr {
 
 #message-fail {
   color: white;
-  margin-bottom: 3%;
-  margin-top: -2%;
+  margin-bottom: 2.89%;
+  margin-top: -1.8%;
 }
 
 @media (min-width: 768px) {
@@ -1821,7 +1823,9 @@ hr {
     font-style: normal;
   }
 
-  .div-wrap .form-paragraph { margin-bottom: 40px; }
+  .div-wrap .form-paragraph {
+    margin-bottom: 40px;
+  }
 
   .card-skills ul li {
     float: left;
